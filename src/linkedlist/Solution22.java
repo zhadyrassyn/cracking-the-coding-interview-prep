@@ -6,12 +6,12 @@ public class Solution22 {
 
     public static void main(String[] args) {
         DoubleLinkedList linkedList = new DoubleLinkedList();
-        linkedList.addLast(1);
-        linkedList.addLast(1);
-        linkedList.addLast(2);
-        linkedList.addLast(3);
+        linkedList.addBack(1);
+        linkedList.addBack(1);
+        linkedList.addBack(2);
+        linkedList.addBack(3);
 
-        int data = linkedList.findKthToLast(0);
+        int data = (int)linkedList.findKthToLast(0);
         System.out.println(data);
     }
 }

@@ -12,24 +12,24 @@ public class Solution21 {
 
     public static void main(String[] args) {
         DoubleLinkedList linkedList = new DoubleLinkedList();
-        linkedList.addLast(1);
-        linkedList.addLast(1);
-        linkedList.addLast(2);
-        linkedList.addLast(3);
-        linkedList.addLast(1);
-        linkedList.addLast(2);
-        linkedList.addLast(3);
-        linkedList.addLast(4);
-        linkedList.addLast(4);
-        linkedList.addLast(4);
-        linkedList.addLast(4);
-        linkedList.addLast(4);
+        linkedList.addBack(1);
+        linkedList.addBack(1);
+        linkedList.addBack(2);
+        linkedList.addBack(3);
+        linkedList.addBack(1);
+        linkedList.addBack(2);
+        linkedList.addBack(3);
+        linkedList.addBack(4);
+        linkedList.addBack(4);
+        linkedList.addBack(4);
+        linkedList.addBack(4);
+        linkedList.addBack(4);
 
-        linkedList.print();
+        linkedList.printForward();
 
         linkedList.removeDuplicates();
 
-        linkedList.print();
+        linkedList.printForward();
 
     }
 }

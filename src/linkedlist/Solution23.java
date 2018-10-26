@@ -4,13 +4,13 @@ package linkedlist;
 public class Solution23 {
     public static void main(String[] args) {
         DoubleLinkedList linkedList = new DoubleLinkedList();
-        linkedList.addLast(1);
-        linkedList.addLast(1);
-        linkedList.addLast(2);
-        linkedList.addLast(3);
+        linkedList.addBack(1);
+        linkedList.addBack(1);
+        linkedList.addBack(2);
+        linkedList.addBack(3);
 
         linkedList.deleteMiddleNode();
 
-        linkedList.print();
+        linkedList.printForward();
     }
 }
