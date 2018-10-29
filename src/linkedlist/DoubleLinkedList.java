@@ -54,8 +54,12 @@ public class DoubleLinkedList<E> extends AbstractList<E> {
             throw new IndexOutOfBoundsException();
         }
         Node<E> temp = this.tail;
+
         this.tail = temp.prev;
-        this.tail.next = null;
+        if (this.tail != null) {
+            this.tail.next = null;
+        }
+
         E data = temp.data;
         temp = null;
 
